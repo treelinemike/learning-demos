@@ -1,6 +1,22 @@
 # learning-demos
 Machine learning demos
 
+Download LATEST Anaconda installer for windows (will say Python 3.7): https://www.anaconda.com/products/individual#windows
+Install Anaconda
+Launch Anaconda prompt from windows start menu
+> conda install tensorflow
+> pip install --update tensorflow      <-- This will update tensorflow to v2.2.0 or greater
+> conda install pydot
+
+That may fail due to permissions. Not sure why. Maybe we need to do this in a new environment rather than base?
+If it fails we can proceed by launching Anaconda power shell prompt by right clicking and running as administrator
+> conda update -n base -c defaults conda
+
+UGH! Try again, but do this in a new envronment, not the base environment...
+
+
+
+----------  ALL OF THIS IF USING OLD KERAS WHICH DIDN'T RUN WITH PYTHON 3.7
 To get up an running "quickly":
 Remove existing versions of Python (for good measure, may not be necessary)
 Download LATEST Anaconda installer for windows (will say Python 3.7): https://www.anaconda.com/products/individual#windows
