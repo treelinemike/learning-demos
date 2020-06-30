@@ -17,6 +17,18 @@ Install required packages:
 > conda install pywin32
 > conda install matplotlib=2.2.3 (need old version of matplotlib because of 'NoneType' object is not iterable error)
 
+Install visualization tools
+> conda install pydot
+> conda install graphviz
+
+Then find the graphviz path, probably something like c:\Users\f002r5k\.conda\pkgs\graphviz-2.38-hfd603c8_2\Library\bin\graphviz, and add it to system PATH
+Trick for resetting path without rebooting:
+> set PATH=C
+
+Close anaconda prompt and open an new one. Check with 
+> echo %PATH%
+
+
 In prompt change to appropriate drive/folder
 > D:
 > ........
