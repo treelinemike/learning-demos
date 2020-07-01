@@ -4,9 +4,9 @@ Machine learning demos
 Download LATEST Anaconda installer for windows (will say Python 3.7): https://www.anaconda.com/products/individual#windows
 Install Anaconda
 Launch Anaconda prompt from windows start menu
-'$ conda create --name ralpn-seg'
 
-> conda activate ralpn-seg
+`$ conda create --name ralpn-seg`
+`$ conda activate ralpn-seg`
 
 > conda install jupyter
 
