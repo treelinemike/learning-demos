@@ -23,7 +23,7 @@ $ conda create --name ralpn-seg
 $ conda activate ralpn-seg
 ```
 
-#### install required packages
+#### Install required packages
 
 ```
 $ conda install jupyter
@@ -54,7 +54,7 @@ Close anaconda prompt and open an new one. Check with
 
 #### Other notes
 
-In prompt change to appropriate drive/folder
+In prompt change to appropriate drive/folder, e.g.
 
 `$ D:`
 
