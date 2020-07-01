@@ -12,9 +12,13 @@ Launch Anaconda prompt from windows start menu
 > conda install pydot                   <-- This is where doing things in base environment failed
 > conda install matplotlib
 
+> conda install tensorflow-datasets     <-- Loads MNIST, etc...
+> pip install -U tensorflow-datasets    <-- update to current version (maybe skip prev. call?)... this broke for me a bit, after updating and restarting jupyter it seems to be working now?
+> conda install pillow                  <-- Python imaging library, forked... may not need
 
 May also need this:
 > conda install graphviz
+
 
 Then find the graphviz path, probably something like c:\Users\f002r5k\.conda\pkgs\graphviz-2.38-hfd603c8_2\Library\bin\graphviz, and add it to system PATH
 Trick for resetting path without rebooting:
