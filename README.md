@@ -4,16 +4,25 @@ Machine learning demos
 Download LATEST Anaconda installer for windows (will say Python 3.7): https://www.anaconda.com/products/individual#windows
 Install Anaconda
 Launch Anaconda prompt from windows start menu
-> conda create --name ralpn-seg
+'$ conda create --name ralpn-seg'
+
 > conda activate ralpn-seg
+
 > conda install jupyter
+
 > conda install tensorflow
+
 > pip install --upgrade tensorflow      <-- This will update tensorflow to v2.2.0 or greater
+
 > conda install pydot                   <-- This is where doing things in base environment failed
+
 > conda install matplotlib
 
-> conda install tensorflow-datasets     <-- Loads MNIST, etc...
+# Load MNIST, etc...
+> conda install tensorflow-datasets     
+
 > pip install -U tensorflow-datasets    <-- update to current version (maybe skip prev. call?)... this broke for me a bit, after updating and restarting jupyter it seems to be working now?
+
 > conda install pillow                  <-- Python imaging library, forked... may not need
 
 May also need this:
