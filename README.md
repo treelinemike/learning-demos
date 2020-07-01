@@ -1,5 +1,10 @@
 # learning-demos
-Machine learning demos
+
+Machine learning demos in Python (Jupyter notebooks)
+
+1. Function approximation. Artificial neural networks are just function approximators; they try to learn the nonlinear mapping between two sets from data. When the output set is finite and discrete this is classification (i.e. network assigns a label to each input element). When the output set is continuous the problem is regression (i.e. assign a continuous scalar value to each input element. In this example we perform regression trying to learn the L2 norm for inputs in R^2.
+
+2. Basic 2D CNN with MNIST handwriting dataset. We try to learn how to read handwritten numbers 0-9.
 
 #### 'Toolchain' installation on Windows
 
