@@ -5,8 +5,14 @@ Download LATEST Anaconda installer for windows (will say Python 3.7): https://ww
 Install Anaconda
 Launch Anaconda prompt from windows start menu
 
-`$ conda create --name ralpn-seg`
-`$ conda activate ralpn-seg`
+#### Create and activate an environment
+
+```
+$ conda create --name ralpn-seg
+$ conda activate ralpn-seg
+```
+
+#### install required packages
 
 > conda install jupyter
 
@@ -18,7 +24,7 @@ Launch Anaconda prompt from windows start menu
 
 > conda install matplotlib
 
-# Load MNIST, etc...
+#### Load MNIST, etc...
 > conda install tensorflow-datasets     
 
 > pip install -U tensorflow-datasets    <-- update to current version (maybe skip prev. call?)... this broke for me a bit, after updating and restarting jupyter it seems to be working now?
